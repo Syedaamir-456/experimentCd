@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Computer Parts Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Products</h2>
+        <div id="filters">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Category</h4>
+                <input type="checkbox" id="cpu" name="category" value="cpu">
+                <label for="cpu">CPU</label><br>
+                <input type="checkbox" id="motherboard" name="category" value="motherboard">
+                <label for="motherboard">Motherboard</label><br>
+                <input type="checkbox" id="ram" name="category" value="ram">
+                <label for="ram">RAM</label><br>
+                <input type="checkbox" id="storage" name="category" value="storage">
+                <label for="storage">Storage</label><br>
+                <input type="checkbox" id="gpu" name="category" value="gpu">
+                <label for="gpu">GPU</label><br>
+                <input type="checkbox" id="case" name="category" value="case">
+                <label for="case">Case</label><br>
+                <input type="checkbox" id="power-supply" name="category" value="power-supply">
+                <label for="power-supply">Power Supply</label><br>
+            </div>
+            <div class="filter-group">
+                <h4>Company</h4>
+                <input type="checkbox" id="intel" name="company" value="intel">
+                <label for="intel">Intel</label><br>
+                <input type="checkbox" id="amd" name="company" value="amd">
+                <label for="amd">AMD</label><br>
+                <input type="checkbox" id="nvidia" name="company" value="nvidia">
+                <label for="nvidia">Nvidia</label><br>
+                <!-- Add more companies as needed -->
+            </div>
+        </div>
+        <div id="product-list">
+            <!-- Product listings will go here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Parts Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
